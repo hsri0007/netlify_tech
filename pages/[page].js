@@ -39,7 +39,7 @@ export async function getStaticProps(ctx) {
           trending: data,
           type: data.type,
         }, // will be passed to the page component as props
-        revalidate: 1,
+        // revalidate: 1,
       };
     }
   } catch (error) {
